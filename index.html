@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="/styles/style.css">
+
+    <title>Frontend Mentor | Calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body id="body">
+
+    <main>
+        <header>
+            <span class="title">Calc</span>
+            <div class="themeIcons">
+                <span class="themeText">THEME</span>
+                <div class="themesSlider">
+                    <span class="themesLocation1">1</span>
+                    <span class="themesLocation2">2</span>
+                    <span class="themesLocation3">3</span>
+                    <input type="range" name="themes" id="themes" min="1" max="3" step="1" value="1">
+                </div>
+            </div>
+        </header>
+        <p id="display">0
+        </p>
+        <section class="buttons">
+            <button class=" btn btn7" id="btn7" data-button-value="7">7</button>
+            <button class=" btn btn8" id="btn8" data-button-value="8">8</button>
+            <button class=" btn btn9" id="btn9" data-button-value="9">9</button>
+            <button class=" btns btnDelete" id="btnDelete">DEL</button>
+
+            <button class=" btn btn4" id="btn4" data-button-value="4">4</button>
+            <button class=" btn btn5" id="btn5" data-button-value="5">5</button>
+            <button class=" btn btn6" id="btn6" data-button-value="6">6</button>
+            <button class=" btn btnPlus" id="btnPlus" data-button-value="+">+</button>
+
+            <button class=" btn btn1" id="btn1" data-button-value="1">1</button>
+            <button class=" btn btn2" id="btn2" data-button-value="2">2</button>
+            <button class=" btn btn3" id="btn3" data-button-value="3">3</button>
+            <button class=" btn btnMinus" id="btnMinus" data-button-value="-">-</button>
+
+            <button class=" btn btnDot" id="btnDot" data-button-value=".">.</button>
+            <button class=" btn btn0" id="btn0" data-button-value="0">0</button>
+            <button class=" btn btnDivide" id="btnDivide" data-button-value="/">/</button>
+            <button class=" btn btnMultiply" id="btnMultiply" data-button-value="*">x</button>
+
+            <button class=" btns btnReset" id="btnReset">RESET</button>
+            <button class=" btns btnEqual" id="btnEqual">=</button>
+        </section>
+    </main>
+
+    <div class="className" id="one"></div>
+    <div class="className" id="two"></div>
+
+    <footer class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://www.twitter.com/ClementKaluoke2" target="_blank" rel="noopener">Clement Kalu
+            Okereke</a>.
+    </footer>
+
+    <script src="/script/script.js"></script>
+</body>
+
+</html>
